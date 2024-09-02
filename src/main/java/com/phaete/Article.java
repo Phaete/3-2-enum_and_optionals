@@ -1,4 +1,8 @@
 package com.phaete;
 
-public record Article() {
+public record Article(
+        String id,
+        String name
+) {
+
 }
